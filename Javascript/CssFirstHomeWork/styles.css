@@ -1,0 +1,126 @@
+
+
+
+:root{
+    --başlıkH1:60px;
+   
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(48, 46, 46);
+}
+
+body{
+    
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+header{
+  width: 100%;
+  background-color: #007F73;
+
+}
+
+header h1{
+  color: #FFF455;
+}
+
+.yanyana{
+  display: flex;
+  flex-direction: row;
+}
+
+nav, 
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  position: relative;
+  margin:  15px;
+}
+nav ul li::after{
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #FFF455;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: all 0.3s ease;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #007F73;
+  font-weight: bold;
+}
+
+section h3{
+  color: #007F73;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+section p{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+section ul li{
+  list-style-position: inside;
+  font-weight: bold;
+}
+
+/******** hakkımızda**********/
+
+section{
+  margin: 0 30px;
+}
+section [class="center"]{
+  color:#007F73;
+}
+
+section .leftside{
+  text-align: left;
+}
+
+.sub{
+  color: #007F73;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/******** ürünler **********/
+
+ol img{
+  padding-bottom: 5px;
+}
+
+ol li .urun .desc{
+ display: flex;
+ justify-content: space-between;
+ padding-bottom: 15px;
+}
+

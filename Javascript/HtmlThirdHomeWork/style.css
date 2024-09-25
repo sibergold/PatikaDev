@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.section1 {
+    background-color: #e3dfdf;
+    text-align: center;
+    margin: 0 auto 4px auto;
+    width: 1000px;
+}
+
+.section2 {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card1 {
+    width: 37%;
+    float: left;
+    background-color: rgb(0, 221, 203);
+    height: 80px;
+    margin-right: 0.5%;
+    padding-top: 20px;
+}
+
+.card2 {
+    width: 25%;
+    height: 90px;
+    float: left;
+    margin-right: 0.5%;
+    padding-top: 10px;
+    background-color: rgb(0, 209, 191);
+}
+
+.card3 {
+    width: 37%;
+    height: 90px;
+    float: left;
+    padding-top: 10px;
+    background-color: rgb(0, 183, 168);
+}
+
+header {
+    margin: 150px auto 0 auto;
+    height: 113px;
+    width: 351px;
+}
+
+footer {
+    width: 193px;
+    margin: 15px auto 0;
+}
